@@ -10,5 +10,6 @@
   "workspaces": [],
   "users": ["me"],
   "tasks": [],
-  "projects": []
+  "projects": [],
+  "tags": []
 }
