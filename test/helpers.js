@@ -52,7 +52,7 @@ exports.loadConfig = function () {
   catch (ex) {
     console.log('Error loading test/config.json');
     console.log('Have you created it yet?');
-    console.log(err.message);
+    console.log(ex.message);
     process.exit(1);
   }
 }
